@@ -26,37 +26,6 @@ An AI-powered full-stack web application that allows users to upload resumes in 
 
 ---
 
-## 🖼️ Project Structure
-
-ResumeSummarizer/
-├── backend/
-│   ├── venv/                 # Python virtual environment
-│   ├── crud.py              # Database operations
-│   ├── database.py          # DB connection setup
-│   ├── main.py              # FastAPI entry point
-│   ├── models.py            # SQLAlchemy models
-│   ├── requirement.txt      # Python dependencies
-│   ├── schema.py            # Pydantic schemas
-│   ├── utils.py             # Resume parsing and LLM call
-├── frontend/
-│   ├── node_modules/        # Installed node packages
-│   ├── public/              # Static files and HTML entry
-│   ├── src/                 # React source code
-│   │   ├── components/      # React components like UploadForm, History
-│   │   ├── App.js           # Root component
-│   │   └── index.js         # App entry point
-│   ├── .gitignore           # Git ignore file
-│   ├── package.json         # Project metadata & dependencies
-│   ├── package-lock.json    # Exact dependency versions
-└── README.md                # Documentation
-├── uploads/                 # Resumes upload data
-
-
-
-
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
