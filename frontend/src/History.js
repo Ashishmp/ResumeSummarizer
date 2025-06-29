@@ -5,7 +5,7 @@ function History() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:8080/insights")
+    fetch("http://localhost:8000/insights")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch insights");
         return res.json();
