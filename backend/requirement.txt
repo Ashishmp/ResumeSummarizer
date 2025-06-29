@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+aiofiles
+python-multipart
+requests
+PyPDF2
+
