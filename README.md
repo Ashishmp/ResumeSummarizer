@@ -46,9 +46,6 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
-# Add your Sarvam API Key in `.env` or hardcode in summarizer.py
-# Example .env format:
-# SARVAM_API_KEY=your_sarvam_key_here
 
 uvicorn main:app --reload
 
