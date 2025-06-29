@@ -20,7 +20,7 @@ function UploadForm() {
     setSummary("");
 
     try {
-      const response = await fetch("http://localhost:8080/upload-resume", {
+      const response = await fetch("http://localhost:8000/upload-resume", {
         method: "POST",
         body: formData,
       });
